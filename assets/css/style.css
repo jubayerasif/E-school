@@ -12,11 +12,36 @@ body
 }
 .nav-container{
     background-color: #F0FFF0;
+    padding-top: 10px;
 }
 .container-fluid > img{
     width: 20%;
 }
+.line-style{
+    padding: 5px 28px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    background-color: #21B573;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 200;
 
+position: absolute;
+width: 104px;
+height: 43px;
+}
+.line-style:hover{
+    font-weight: 400;
+    color: #fff;
+}
+.nav-item{
+    margin-left: 35px;
+    padding: 8px;
+}
 
 
 
