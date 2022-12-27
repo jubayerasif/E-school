@@ -34,6 +34,12 @@ body
     font-size: 19px;
     font-weight: 400;
 }
+.btn:hover{
+    background-color: #21B573;
+    color: white;
+
+
+}
 .nav-link{
     margin-left: 35px;
     padding: 8px;
@@ -83,6 +89,7 @@ body
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
+    cursor: pointer;
 }
 .card-container-body:hover{
     background-color: #FFF;
