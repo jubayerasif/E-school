@@ -109,7 +109,7 @@ body
     font-weight: 500;
 }
 .serve-container{
-    height: 1010px;
+    height: 960px;
 }
 .serve-container_h5{
     font-weight: 700;
@@ -148,7 +148,21 @@ body
     font-weight: 400;
     cursor: pointer;
 }
-
+.test-row{
+    margin-top: 55px;
+}
+.man-img{
+    width: 120px;
+    height: 120px;
+    margin-right: 55px;
+    margin-left: 15px;
+}
+.test-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 5px;
+}
 footer{
     height: 370px;
     background: #282531;
