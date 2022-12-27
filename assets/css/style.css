@@ -34,6 +34,12 @@ body
     font-size: 19px;
     font-weight: 400;
 }
+.btn:hover{
+    background-color: #21B573;
+    color: white;
+
+
+}
 .nav-link{
     margin-left: 35px;
     padding: 8px;
@@ -60,6 +66,47 @@ body
     margin-top: 25px;
     font-weight: 400;
     line-height: 50px;
+}
+.card-container{
+    height: 385px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.card-container-body{
+    width: 250px;
+    height: 250px;
+    padding: 13px 28px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    cursor: pointer;
+}
+.card-container-body:hover{
+    background-color: #FFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.card-img-top{
+    width: 35%;
+    padding-top: 25px;
+}
+.card-container-h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+}
+.card-container-p{
+    opacity: 55%;
+    font-weight: 500;
 }
 
 
