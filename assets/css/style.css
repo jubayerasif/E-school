@@ -165,7 +165,10 @@ body
 }
 footer{
     height: 370px;
-    background: #282531;
+    background-color: #282531;
+    padding-top: 50px;
+    color: #fff;
+    line-height: 30px;
 }
 
 
